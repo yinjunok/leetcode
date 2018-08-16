@@ -12,3 +12,7 @@ test('120 尾数有 0 的, 只有整数 0 才有回文', () => {
   expect(palindromeNumber(120)).toBe(false);
 });
 
+test('0 是回文', () => {
+  expect(palindromeNumber(0)).toBe(true);
+});
+
