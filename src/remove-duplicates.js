@@ -50,7 +50,8 @@ const removeDuplicates2 = function(nums) {
    * 从网上看到的解法, 直接就返回了去重后的长度.
    * 但是我觉得这样不符合题意, 题目中说是要从数组里去掉重复的元素,
    * 以上的操作并没有去除重复的元素, 只是让他们在 0 ~ counter 内不重复.
-   * 我们可以利用 JS 数组可以给 lenth 直接赋值的特性, 直接把 counter 之后的元素去掉.
+   * 奇怪的是, 这样居然可以跑通 leetcode 所有测试, 也不知道 leetcode 的测试时怎么写的.
+   * 我们可以利用 JS 数组可以给 length 直接赋值的特性, 直接把 counter 之后的元素去掉.
    */
   nums.length = counter;
   return counter;
