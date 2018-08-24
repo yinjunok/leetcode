@@ -9,7 +9,7 @@
       "type": "node",
       "request": "launch",
       "name": "启动程序",
-      "program": "${workspaceFolder}\\src\\maximum-subarray.js"
+      "program": "${workspaceFolder}\\index.js"
     }
   ]
 }
