@@ -6,7 +6,7 @@ class BinaryTree {
 }
 
 // 根据数组生成二叉树
-BinaryTree.Produce = function (arr) {
+BinaryTree.produce = function (arr) {
   const queue = [];
   const root = new BinaryTree(arr.shift());
   // 添加是否访问过的标记

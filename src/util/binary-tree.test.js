@@ -1,7 +1,7 @@
 const BinaryTree = require('./binary-tree');
 
 it('[1,2,2,3,4,4,3]', () => {
-  const tree = BinaryTree.Produce([1,2,2,3,4,4,3]);
+  const tree = BinaryTree.produce([1,2,2,3,4,4,3]);
   expect(tree).toEqual({
     val: 1,
     left: {
@@ -34,7 +34,7 @@ it('[1,2,2,3,4,4,3]', () => {
 });
 
 it('[1,2,2,null,3,null,3]', () => {
-  const tree = BinaryTree.Produce([1,2,2,null,3,null,3]);
+  const tree = BinaryTree.produce([1,2,2,null,3,null,3]);
   expect(tree).toEqual({
     val: 1,
     left: {
