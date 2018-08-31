@@ -21,8 +21,8 @@ var maxProfit2 = function(prices) {
   // 来自讨论区的算法, 时间复杂度 O(n);
   let maxCur = 0, maxSoFar = 0;
   for(let i = 1; i < prices.length; i++) {
-      maxCur = Math.max(0, maxCur += prices[i] - prices[i-1]);
-      maxSoFar = Math.max(maxCur, maxSoFar);
+    maxCur = Math.max(0, maxCur += prices[i] - prices[i-1]);
+    maxSoFar = Math.max(maxCur, maxSoFar);
   }
   return maxSoFar;
 }
