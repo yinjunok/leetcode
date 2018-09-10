@@ -37,7 +37,7 @@ BinaryTree.produce = function (arr) {
         cur._left = true;
         cur.left = node;
       } else {
-        cur._right = true;;
+        cur._right = true;
         cur.right = node;
         delete cur._left;
         delete cur._right;
