@@ -5,9 +5,11 @@
   "author": "yinjun",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "devDependencies": {
+    "eslint": "^5.5.0",
     "jest": "^23.5.0"
   }
 }

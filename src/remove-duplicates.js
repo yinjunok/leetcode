@@ -55,9 +55,9 @@ const removeDuplicates2 = function(nums) {
    */
   nums.length = counter;
   return counter;
-}
+};
 
 module.exports = {
   removeDuplicates1,
   removeDuplicates2,
-}
+};

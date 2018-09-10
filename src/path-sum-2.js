@@ -20,9 +20,9 @@ var pathSum = function(root, sum) {
 const walkTree = (node, sum, target, list, result) => {
   if (node.left === null && node.right === null) {
     if (sum + node.val === target) {
-			list.push(node.val);
+      list.push(node.val);
       result.push(list);
-			return;
+      return;
     }
   }
   if (node.left !== null) {

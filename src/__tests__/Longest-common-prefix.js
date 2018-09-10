@@ -5,14 +5,14 @@ test('["", ""] 应该返回 ""', () => {
 });
 
 test('["flower","flow","flight"]', () => {
-  expect(longestCommonPrefix(["flower","flow","flight"])).toBe('fl');
+  expect(longestCommonPrefix(['flower','flow','flight'])).toBe('fl');
 });
 
 test('["dog","racecar","car"]', () => {
-  expect(longestCommonPrefix(["dog", "racecar", "car"])).toBe('');
+  expect(longestCommonPrefix(['dog', 'racecar', 'car'])).toBe('');
 });
 
 
 test('["dog"]', () => {
-  expect(longestCommonPrefix(["dog"])).toBe('dog');
+  expect(longestCommonPrefix(['dog'])).toBe('dog');
 });

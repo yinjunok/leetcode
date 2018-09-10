@@ -18,5 +18,5 @@ test('反转 -564', () => {
 });
 
 test('2147483647 溢出', () => {
-  expect(reverse(2147483647)).toBe(0)
+  expect(reverse(2147483647)).toBe(0);
 });

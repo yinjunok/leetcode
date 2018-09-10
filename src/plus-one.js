@@ -17,7 +17,7 @@ var plusOne = function(digits) {
     }
   }
   if (val > 9) {
-    digits.unshift(1)
+    digits.unshift(1);
   }
   return digits;
 };

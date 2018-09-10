@@ -11,10 +11,10 @@ var generate = function(numRows) {
     const tempArr = [];
     tempArr.length = i;
     tempArr.fill(1, 0);
-		if (i <= 2) {
-			result.push(tempArr);
-			continue;
-		}
+    if (i <= 2) {
+      result.push(tempArr);
+      continue;
+    }
 		
     const preArr = result[i - 2];
     for (let j = 1; j < i - 1; ++j) {

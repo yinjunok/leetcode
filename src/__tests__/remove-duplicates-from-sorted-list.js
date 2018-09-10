@@ -1,14 +1,14 @@
 const deleteDuplicates = require('../remove-duplicates-from-sorted-list');
 
 let listNode = {
-	val: 1,
-	next: {
-		val: 1,
-		next: {
-			val: 2,
-			next: null,
-		}
-	}
+  val: 1,
+  next: {
+    val: 1,
+    next: {
+      val: 2,
+      next: null,
+    }
+  }
 };
 
 it('should be [1, 2]', () => {
@@ -18,5 +18,5 @@ it('should be [1, 2]', () => {
       val: 2,
       next: null,
     }
-  })
+  });
 });

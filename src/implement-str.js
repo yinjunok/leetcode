@@ -6,7 +6,7 @@
  */
 var strStr = function(haystack, needle) {
   if (needle === '') {
-      return 0;
+    return 0;
   }
 
   let len = haystack.length - needle.length + 1;

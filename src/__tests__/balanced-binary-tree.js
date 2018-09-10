@@ -1,5 +1,5 @@
 const BinaryTree = require('../util/binary-tree');
-const isBalanced = require('../balanced-binary-tree')
+const isBalanced = require('../balanced-binary-tree');
 
 it('should be true', () => {
   const tree = BinaryTree.produce([3,9,20,null,null,15,7]);

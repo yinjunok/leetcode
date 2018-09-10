@@ -11,7 +11,7 @@ const l1 = {
       next: null,
     }
   }
-}
+};
 
 const l2 = {
   val: 1,
@@ -22,7 +22,7 @@ const l2 = {
       next: null,
     }
   }
-}
+};
 
 const result = {
   val: 1,
@@ -42,7 +42,7 @@ const result = {
       }
     }
   }
-}
+};
 
 test('l1, l2 排序', () => {
   expect(mergeTwoLists(l1, l2)).toEqual(result);

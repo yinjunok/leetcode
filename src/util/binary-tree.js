@@ -54,6 +54,6 @@ BinaryTree.produce = function (arr) {
   }
 
   return root;
-}
+};
 
 module.exports = BinaryTree;

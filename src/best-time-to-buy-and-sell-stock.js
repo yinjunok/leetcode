@@ -5,7 +5,7 @@
  */
 var maxProfit1 = function(prices) {
   // 暴力循环法, 时间复杂度 O(n^2)
-  let result = 0
+  let result = 0;
   for (let i = prices.length - 1; i > 0; --i) {
     for (let j = i - 1; j >= 0; --j) {
       const diff = prices[i] - prices[j];
@@ -25,9 +25,9 @@ var maxProfit2 = function(prices) {
     maxSoFar = Math.max(maxCur, maxSoFar);
   }
   return maxSoFar;
-}
+};
 
 module.exports = {
   maxProfit1,
   maxProfit2,
-}
+};

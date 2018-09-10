@@ -17,7 +17,8 @@ var lowestCommonAncestor = function(root, p, q) {
   const pVal = p.val;
   const qVal = q.val;
   // 从顶部开始向下查找, 当出现分叉的时候, 这个节点就是目标节点.
-  while (true) {
+  let condition = true;
+  while (condition) {
     if (cur.val >= pVal && cur.val <= qVal) {
       return cur;
     }
